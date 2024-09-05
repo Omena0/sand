@@ -1,0 +1,9 @@
+[
+    {
+        "name": "fire_extinguish",
+        "chance": 2,
+        "shapeless": true,
+        "from": ["#fire","water"],
+        "to": ["-","steam"]
+    }
+]

@@ -1,0 +1,8 @@
+[
+    {
+        "name": "deleter",
+        "shapeless": true,
+        "from": ["deleter","!deleter"],
+        "to": ["deleter","-"]
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "name": "explosive_ignite",
+        "shapeless": true,
+        "from": ["#explosive","#fire"],
+        "to": ["gas-5","@1"]
+    },
+    {
+        "name": "explosive_ignite",
+        "shapeless": true,
+        "from": ["#explosive","gas-5"],
+        "to": ["gas-5","@1"]
+    }
+]

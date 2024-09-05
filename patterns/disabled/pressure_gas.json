@@ -1,0 +1,72 @@
+[
+    {
+        "name": "gas_spread_5_3",
+        "shapeless": true,
+        "chance": 2,
+        "from": ["gas-5","gas-3"],
+        "to": ["gas-4","gas-4"]
+    },
+    {
+        "name": "gas_spread_5_2",
+        "shapeless": true,
+        "chance": 2,
+        "from": ["gas-5","gas-2"],
+        "to": ["gas-3","gas-4"]
+    },
+    {
+        "name": "gas_spread_5_1",
+        "shapeless": true,
+        "chance": 2,
+        "from": ["gas-5","gas-1"],
+        "to": ["gas-3","gas-3"]
+    },
+    {
+        "name": "gas_spread_5_0",
+        "shapeless": true,
+        "chance": 2,
+        "from": ["gas-5","-"],
+        "to": ["gas-2","gas-3"]
+    },
+    {
+        "name": "gas_spread_4_2",
+        "shapeless": true,
+        "chance": 2,
+        "from": ["gas-4","gas-2"],
+        "to": ["gas-3","gas-3"]
+    },
+    {
+        "name": "gas_spread_4_1",
+        "shapeless": true,
+        "chance": 2,
+        "from": ["gas-4","gas-1"],
+        "to": ["gas-2","gas-3"]
+    },
+    {
+        "name": "gas_spread_4_0",
+        "shapeless": true,
+        "chance": 2,
+        "from": ["gas-4","-"],
+        "to": ["gas-2","gas-2"]
+    },
+    {
+        "name": "gas_spread_3_1",
+        "shapeless": true,
+        "chance": 2,
+        "from": ["gas-3","gas-1"],
+        "to": ["gas-2","gas-2"]
+    },
+    {
+        "name": "gas_spread_3_0",
+        "shapeless": true,
+        "chance": 2,
+        "from": ["gas-3","-"],
+        "to": ["gas-2","gas-1"]
+    },
+    {
+        "name": "gas_spread_2_0",
+        "shapeless": true,
+        "chance": 2,
+        "from": ["gas-2","-"],
+        "to": ["gas-1","gas-1"]
+    }
+]

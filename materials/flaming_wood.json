@@ -1,0 +1,13 @@
+{
+    "name": "flaming_wood",
+    "colors": [
+        [200, 100, 0],
+        [170, 60, 0],
+        [140, 20, 0],
+        [100, 0, 0],
+        [60, 0, 0]
+    ],
+    "tags": [
+        "fire", "falling", "light_solid", "solid"
+    ]
+}

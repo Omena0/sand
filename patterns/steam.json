@@ -1,0 +1,16 @@
+[
+    {
+        "name": "steam_condense",
+        "chance": 50,
+        "shapeless": true,
+        "from": ["steam","#solid"],
+        "to": ["water","*"]
+    },
+    {
+        "name": "steam_condense_barrier",
+        "chance": 50,
+        "shapeless": true,
+        "from": ["steam","barrier"],
+        "to": ["water","*"]
+    }
+]

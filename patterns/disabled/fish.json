@@ -1,0 +1,93 @@
+[
+    {
+        "name": "fish_left",
+        "chance": 2,
+        "from": [
+            ["*", "*", "*"],
+            ["*", "fish", "water"],
+            ["*", "*", "*"]
+        ],
+        "to": [
+            ["*", "*", "*"],
+            ["*", "water", "fish"],
+            ["*", "*", "*"]
+        ]
+    },
+    {
+        "name": "fish_right",
+        "chance": 2,
+        "from": [
+            ["*", "*", "*"],
+            ["water", "fish", "*"],
+            ["*", "*", "*"]
+        ],
+        "to": [
+            ["*", "*", "*"],
+            ["fish", "water", "*"],
+            ["*", "*", "*"]
+        ]
+    },
+    {
+        "name": "fish_eat_left",
+        "chance": 4,
+        "from": [
+            ["*", "water", "*"],
+            ["#plant", "fish", "water"],
+            ["!#soil", "water", "*"]
+        ],
+        "to": [
+            ["*", "*", "*"],
+            ["water", "fish", "fish"],
+            ["*", "*", "*"]
+        ]
+    },
+    {
+        "name": "fish_eat_right",
+        "chance": 4,
+        "from": [
+            ["*", "water", "*"],
+            ["water", "fish", "#plant"],
+            ["*", "water", "!#soil"]
+        ],
+        "to": [
+            ["*", "*", "*"],
+            ["fish", "fish", "water"],
+            ["*", "*", "*"]
+        ]
+    },
+    {
+        "name": "fish_eat_down",
+        "chance": 5,
+        "from": [
+            ["water", "fish", "water"],
+            ["water", "#plant", "water"],
+            ["*", "!#soil", "*"]
+        ],
+        "to": [
+            ["*", "fish", "*"],
+            ["*", "fish", "*"],
+            ["*", "water", "*"]
+        ]
+    },
+    {
+        "name": "fish_die",
+        "chance": 100,
+        "shapeless": true,
+        "from": ["fish","water"],
+        "to": ["water","water"]
+    },
+    {
+        "name": "fish_die_out_of_water",
+        "chance": 15,
+        "from": [
+            ["*", "!water", "*"],
+            ["!water", "fish", "!water"],
+            ["*", "!water", "*"]
+        ],
+        "to": [
+            ["*", "*", "*"],
+            ["*", "-", "*"],
+            ["*", "*", "*"]
+        ]
+    }
+]

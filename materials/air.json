@@ -1,0 +1,9 @@
+{
+    "name": "-",
+    "colors": [
+        [20, 20, 20]
+    ],
+    "tags": [
+        "no_sim", "no_render", "gas"
+    ]
+}

@@ -1,0 +1,72 @@
+[
+    {
+        "name": "sea_grass_grow_floor",
+        "chance": 50,
+        "from": [
+            ["*","water","*"],
+            ["water","sea_grass","water"],
+            ["#soil","#soil","#soil"]
+        ],
+        "to": [
+            ["*","sea_grass","*"],
+            ["*","sea_grass","*"],
+            ["*","*","*"]
+        ]
+    },
+    {
+        "name": "sea_grass_grow_left",
+        "chance": 75,
+        "from": [
+            ["*","water","water"],
+            ["*","sea_grass","*"],
+            ["*","sea_grass","water"]
+        ],
+        "to": [
+            ["*","sea_grass","*"],
+            ["*","sea_grass","*"],
+            ["*","*","*"]
+        ]
+    },
+    {
+        "name": "sea_grass_grow_right",
+        "chance": 75,
+        "from": [
+            ["water","water","*"],
+            ["*","sea_grass","*"],
+            ["water","sea_grass","*"]
+        ],
+        "to": [
+            ["*","sea_grass","*"],
+            ["*","sea_grass","*"],
+            ["*","*","*"]
+        ]
+    },
+    {
+        "name": "sea_grass_grow_leaf_left",
+        "chance": 30,
+        "from": [
+            ["*","sea_grass","*"],
+            ["water","sea_grass","water"],
+            ["*","sea_grass","*"]
+        ],
+        "to": [
+            ["*","*","*"],
+            ["sea_grass","*","*"],
+            ["*","*","*"]
+        ]
+    },
+    {
+        "name": "sea_grass_grow_leaf_right",
+        "chance": 30,
+        "from": [
+            ["*","sea_grass","*"],
+            ["water","sea_grass","water"],
+            ["*","sea_grass","*"]
+        ],
+        "to": [
+            ["*","*","*"],
+            ["*","*","sea_grass"],
+            ["*","*","*"]
+        ]
+    }
+]

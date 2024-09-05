@@ -1,0 +1,12 @@
+{
+    "name": "acid",
+    "colors": [
+        [40, 180, 100],
+        [0, 150, 50],
+        [0, 100, 0],
+        [0, 50, 0]
+    ],
+    "tags": [
+        "fluid", "falling", "acidic", "acid_resistant"
+    ]
+}

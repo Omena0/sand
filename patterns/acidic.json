@@ -1,0 +1,16 @@
+[
+    {
+        "name": "acidic_corode",
+        "chance": 70,
+        "shapeless": true,
+        "from": ["acid","!#acid_resistant"],
+        "to": ["-","steam"]
+    },
+    {
+        "name": "acid_neutralize",
+        "shapeless": true,
+        "chance": 5,
+        "from": ["#acidic","#acid_neutralize"],
+        "to": ["@1","@1"]
+    }
+]
